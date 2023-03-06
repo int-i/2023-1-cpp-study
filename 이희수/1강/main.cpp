@@ -23,11 +23,11 @@ int main() {
 
 
 //int main() {
-//	int a = 0;
+//   int a = 0;
 //
-//	cin >> a;
-//	cout << a << endl;
-//	return 0;
+//   cin >> a;
+//   cout << a << endl;
+//   return 0;
 //}
 
 
@@ -43,6 +43,6 @@ int main() {
 // 요즘 인싸들이 쓴다는 잘나가는 채-신 문법인 후행 반환 형식
 // 내가 프로그래밍 힙스터가 되고 싶다, 그럼 쓰셔도 됩니다.
 //auto main() -> int {
-//	cout << "Hello inti" << endl;
-//	return 0;
+//   cout << "Hello inti" << endl;
+//   return 0;
 //}
