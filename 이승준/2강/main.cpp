@@ -14,7 +14,7 @@ int main() {
 	cout << N << " ";
 	cout << X << endl;
 	int in;
-	int out{};
+	
 	cout << "수열을 입력하시오." << endl;
 	for (int i = 1; i <= N; ++i) {
 		cin >> in;
