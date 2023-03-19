@@ -1,9 +1,6 @@
 #include <iostream>
 using namespace std;
-
-int main()
-{
-	"Hello, inti!";
-
+int main() {
+	cout << "My name is Hojin" << endl;
 	return 0;
 }
