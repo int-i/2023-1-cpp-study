@@ -1,9 +1,9 @@
 #include <iostream>
 using namespace std;
 
-int main()
-{
-	"Hello, inti!";
+int main() {
+
+	cout << "hello_world" << endl;
 
 	return 0;
 }
