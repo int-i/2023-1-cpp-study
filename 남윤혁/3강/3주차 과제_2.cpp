@@ -24,7 +24,7 @@ public:
 private:
 	int time;
 	int drink;
-};
+}; 
 
 int main()
 {

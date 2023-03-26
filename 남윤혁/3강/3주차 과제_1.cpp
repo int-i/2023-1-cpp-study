@@ -25,4 +25,4 @@ void calculator(int chessPieces[n])
 	{
 		cout << originalPieces[j] - chessPieces[j] << " ";
 	}
-}
+} 
