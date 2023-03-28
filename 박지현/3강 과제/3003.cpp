@@ -1,12 +1,22 @@
 #include <iostream>
-using namespace std;
+
+constexpr int NumberOfMember = 6;
+
+void calculator(int[NumberOfMember]);
 
 int main() {
-    int chess[6] = { 1,1,2,2,2,8 };
-    int n;
-    for (int i = 0; i < 6; i++) {
-        cin >> n;
-        cout << chess[i] - n << ' ';
-    }
+    int chessPieces[NumberOfMember] = {};
+    for (int i = 0; i < NumberOfMember; ++i)
+        std::cin >> chessPieces[i];
+
+    calculator(chessPieces);
+
     return 0;
+}
+
+void calculator(int chessPieces[NumberOfMember]) {
+    int Pieces[NumberOfMember] = { 1, 1, 2, 2, 2, 8 };
+    for (int i = 0; i < NumberOfMember; ++i) {
+        std::cout << Pieces[i] - chessPieces[i] << ' ';
+    }
 }
