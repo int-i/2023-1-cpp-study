@@ -20,7 +20,7 @@ int main() {
         }
     }
     for (int i = 0; i < n; i++) {
-        sum = 100 * score[i] / hscore + sum; //각 점수 고치고 더하기
+        sum += 100 * score[i] / hscore; //각 점수 고치고 더하기
     }
     cout << sum / n;
 
