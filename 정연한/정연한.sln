@@ -11,6 +11,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "3강 - 함수, 람다식, C
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "4강 - 배열, 포인터", "4강 - 배열, 포인터\4강 - 배열, 포인터.vcxproj", "{06340527-866A-4EE6-9FF7-961BCB94F12C}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "5강 - 상속", "5강 - 상속\5강 - 상속.vcxproj", "{ED338967-54EF-47FD-A790-B78B06AFEF41}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -51,6 +53,14 @@ Global
 		{06340527-866A-4EE6-9FF7-961BCB94F12C}.Release|x64.Build.0 = Release|x64
 		{06340527-866A-4EE6-9FF7-961BCB94F12C}.Release|x86.ActiveCfg = Release|Win32
 		{06340527-866A-4EE6-9FF7-961BCB94F12C}.Release|x86.Build.0 = Release|Win32
+		{ED338967-54EF-47FD-A790-B78B06AFEF41}.Debug|x64.ActiveCfg = Debug|x64
+		{ED338967-54EF-47FD-A790-B78B06AFEF41}.Debug|x64.Build.0 = Debug|x64
+		{ED338967-54EF-47FD-A790-B78B06AFEF41}.Debug|x86.ActiveCfg = Debug|Win32
+		{ED338967-54EF-47FD-A790-B78B06AFEF41}.Debug|x86.Build.0 = Debug|Win32
+		{ED338967-54EF-47FD-A790-B78B06AFEF41}.Release|x64.ActiveCfg = Release|x64
+		{ED338967-54EF-47FD-A790-B78B06AFEF41}.Release|x64.Build.0 = Release|x64
+		{ED338967-54EF-47FD-A790-B78B06AFEF41}.Release|x86.ActiveCfg = Release|Win32
+		{ED338967-54EF-47FD-A790-B78B06AFEF41}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
